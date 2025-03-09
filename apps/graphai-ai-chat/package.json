@@ -1,0 +1,33 @@
+{
+  "name": "graphai-ai-chat",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@graphai/agents": "^1.0.2",
+    "@graphai/llm_agents": "^1.0.2",
+    "@graphai/openai_agent": "^1.0.2",
+    "@graphai/vanilla": "^1.0.9",
+    "@repo/ui": "*",
+    "graphai": "^1.0.1",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@types/node": "^22.13.9",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "eslint": "^9.21.0",
+    "typescript": "5.8.2"
+  }
+}
