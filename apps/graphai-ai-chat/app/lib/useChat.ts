@@ -1,6 +1,5 @@
 import { openAIAgent } from "@graphai/openai_agent"
 import * as vanilla_agents from "@graphai/vanilla";
-import { textInputAgent } from "@graphai/agents";
 import { GraphAI } from "graphai"
 import { useState } from "react";
 
@@ -68,7 +67,7 @@ const graph_data = {
   },
 };
 
-const graph = new GraphAI(graph_data, { ...vanilla_agents, openAIAgent, textInputAgent });    
+const graph = new GraphAI(graph_data, { ...vanilla_agents, openAIAgent});    
 
 export function useChat({initialInput = ""}) {
     const [input, setInput] = useState(initialInput);
