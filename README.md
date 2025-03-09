@@ -1,4 +1,6 @@
-# GraphAI Chat Application
+# Vercel AI SDK and GraphAI
+
+これは、Vercel AI SDKとGraphAIの比較と目的とするプロジェクトです
 
 ## プロジェクト構成
 
